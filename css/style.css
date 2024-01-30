@@ -1,6 +1,13 @@
-h1 {
-    text-align: center;
+* {
+    margin: 0px;
+    padding: 0px;
 }
+
+body,
+html {
+    overflow-x: hidden;
+}
+
 
 /* Media Queries for Mobile Responsive Design */
 @media (max-width:768px) {
@@ -27,6 +34,7 @@ h1 {
 }
 
 h1 {
+    margin: 48px;
     color: #000;
     font-family: Poppins;
     font-size: 64px;
@@ -34,14 +42,6 @@ h1 {
     font-weight: 800;
     line-height: 64px;
     width: 512px;
-    margin: 48px;
-}
-
-.card img {
-    width: 411px;
-    height: 300px;
-    flex-shrink: 0;
-    align-self: flex-end;
 }
 
 h3 {
@@ -85,9 +85,61 @@ h5 {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
     width: 256px;
+    line-height: normal;
 }
-.card{
-    margin-left: 96px;
+
+.card {
+    margin: auto;
+    width: 1248px;
+    height: 512px;
+    flex-shrink: 0;
+    padding-top: 23px;
+}
+
+p {
+    color: var(--Color-4, rgba(30, 30, 30, 0.50));
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+#a {
+    text-align: center;
+}
+
+.card img {
+    flex-shrink: 0;
+    align-self: center;
+}
+.card-group{
+    margin: 96px;
+    text-align: center;
+}
+#b{
+    padding-top: 50px;
+}
+#c{
+    height: 96px;
+    width: 96px;
+    flex-shrink: 0;
+    align-self: center;
+}
+.card-containerr {
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: auto;
+    background: var(--Color-1, #C1DCDC);
+    padding-top: 50px;
 }
